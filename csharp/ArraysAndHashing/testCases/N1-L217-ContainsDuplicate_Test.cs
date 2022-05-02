@@ -6,22 +6,42 @@ namespace testCases;
 
 public class Tests
 {
-    [SetUp]
-    public void Setup()
-    {
-    }
+  [SetUp]
+  public void Setup()
+  {
+      
+  }
 
-    [Test]
-    public void TestCase_1()
-    {
-        // Arrange
-        int[] input = {1, 2, 3, 1};
+  [Test]
+  public void TestCase_1()
+  {
+    // Arrange
+    int[] input = { 1, 2, 3, 1 };
 
-        // Act
-        Solution solution = new Solution();
-        bool testResult = solution.ContainsDuplicate(input);
+    // Act
+    Solution solution = new Solution();
+    bool testResult = solution.ContainsDuplicate(input);
 
-        // Assert
-        testResult.Should().Be(true);
-    }
+    // Assert
+    testResult.Should().Be(true);
+  }
+
+  [Test]
+  public void TestCase_2()
+  {
+    int[] input = { 1, 2, 3, 4 };
+
+    // Act
+    Solution solution = new Solution();
+    bool testResult = solution.ContainsDuplicate(input);
+
+    // Assert
+    testResult.Should().Be(false);
+  }
+
+  [Test]
+  public void TestCase_3()
+  {
+      int[] input = {1, 1, 1, 3, 3, 4, 3, 2, 4, 2 };
+  }
 }
