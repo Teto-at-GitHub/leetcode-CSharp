@@ -36,5 +36,18 @@ namespace testCases
       // Assert
       testResult.Should().Be(false);
     }
+
+    [Test]
+    public void Test_Example_3()
+    {
+      string s = "aacc";
+      string t = "ccac";
+
+      Solution solution = new Solution();
+      bool testResult = solution.IsAnagram(s, t);
+
+      // Assert
+      testResult.Should().Be(false);
+    }
   }
 }

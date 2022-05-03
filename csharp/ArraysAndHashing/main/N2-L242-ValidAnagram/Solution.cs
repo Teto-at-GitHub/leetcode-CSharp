@@ -1,5 +1,6 @@
 namespace ArrayAndHashing.Main.Validanagram
 {
+
   public class Solution
   {
     public bool IsAnagram(string s, string t)
@@ -56,7 +57,7 @@ namespace ArrayAndHashing.Main.Validanagram
     private static Dictionary<char, int> UpdateCharacterDictionary(Dictionary<char, int> aDict, char aChar)
     {
       if (aDict.ContainsKey(aChar))
-        aDict[aChar] = +1;
+        aDict[aChar]++;
       else
       {
         aDict[aChar] = 1;
