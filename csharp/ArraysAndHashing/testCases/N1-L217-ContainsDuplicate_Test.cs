@@ -4,14 +4,8 @@ using FluentAssertions;
 
 namespace testCases;
 
-public class Tests
+public class ContainsDuplicate_Test
 {
-  [SetUp]
-  public void Setup()
-  {
-      
-  }
-
   [Test]
   public void TestCase_1()
   {
@@ -42,6 +36,11 @@ public class Tests
   [Test]
   public void TestCase_3()
   {
-      int[] input = {1, 1, 1, 3, 3, 4, 3, 2, 4, 2 };
+    int[] input = { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 };
+
+    Solution solution = new Solution();
+    bool testResult = solution.ContainsDuplicate(input);
+
+    testResult.Should().Be(true);
   }
 }
