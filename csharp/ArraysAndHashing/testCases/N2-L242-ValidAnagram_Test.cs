@@ -21,5 +21,20 @@ namespace testCases
       // Assert
       testResult.Should().Be(true);
     }
+
+    [Test]
+    public void Test_Example_2()
+    {
+      // Arrange
+      string s = "rat";
+      string t = "car";
+
+      // Act
+      Solution solution = new Solution();
+      bool testResult = solution.IsAnagram(s, t);
+
+      // Assert
+      testResult.Should().Be(false);
+    }
   }
 }
