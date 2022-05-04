@@ -1,6 +1,6 @@
 # Leetcode solutions for [NeetCode](https://www.youtube.com/c/neetcode) in C#
 
-This is my personal fork of https://github.com/neetcode-gh/leetcode : I am mostly adding C# code.
+This is my personal fork of https://github.com/neetcode-gh/leetcode : I am mostly adding C# solutions.
 
 ### Naming convention
 
