@@ -4,6 +4,7 @@ namespace TwoPointers.Main.ValidPalindrome
 {
    public class Solution
    {
+      // I am not sure of the complexity of my solution :-(
       public bool IsPalindrome(string s)
       {
          //FIRST SUBMISSION
@@ -44,7 +45,11 @@ namespace TwoPointers.Main.ValidPalindrome
          return false;
       }
 
+      // **BEST**
       // This solution ( taken from LeetCode) is super fast (51 ms) and actually uses pointers
+      // It's the C# version of the one suggested by NeetCode
+      // time complexity : O(n)
+      // memory complexity : O(1)
       public bool IsPalindromeInsane(string st)
       {
          var s = st.ToLower();
