@@ -1,5 +1,8 @@
 namespace Stack.Main.MinStack
 {
+   // All operations in this class are O(1) in time, 
+   // thanks to the Stack capabilities.
+   // That's why we add a second one for the minima
    public class MinStack
    {
       private Stack<int> _stack ;
@@ -14,10 +17,8 @@ namespace Stack.Main.MinStack
       public void Push(int val)
       {
          _stack.Push(val);
-         if (_minStack.TryPeek(out int currentMin))
-            _minStack.Push(Math.Min(val,currentMin));
-         else{ _minStack.Push(val);}
-
+         val = _minStack.TryPeek(out int currentMin) ? Math.Min(val,currentMin) : val;
+         _minStack.Push(val);
       }
 
       public void Pop()
