@@ -1,53 +1,55 @@
-
-// Definition for singly-linked list.
-public class ListNode
+namespace LinkedList.Main.ReverseList
 {
-   public int val;
-   public ListNode next;
-   public ListNode(int val = 0, ListNode next = null)
+   // Definition for singly-linked list.
+   public class ListNode
    {
-      this.val = val;
-      this.next = next;
-   }
-}
-
-public class Solution
-{
-   // Iterative
-   // TC : O(n)
-   // SC : O(1)
-   public ListNode ReverseListIteratively(ListNode head)
-   {
-      ListNode previous = null;
-      ListNode current = head;
-
-      while (current is not null)
+      public int val;
+      public ListNode next;
+      public ListNode(int val = 0, ListNode next = null)
       {
-         ListNode next = current.next;
-         current.next = previous;
-         previous = current;
-         current = next;
+         this.val = val;
+         this.next = next;
       }
-
-      return previous;
    }
 
-   // recursive
-   // TC : O(n)
-   // SC : O(n), 
-   public ListNode ReverseList(ListNode head)
+   public class Solution
    {
-      if (head is null)
-         return head;
-
-      ListNode newHead = head;
-      if (head.next is not null)
+      // Iterative
+      // TC : O(n)
+      // SC : O(1)
+      public ListNode ReverseListIteratively(ListNode head)
       {
-         newHead = ReverseList(head.next);
-         head.next.next = head;
-      }
-      head.next = null;
+         ListNode previous = null;
+         ListNode current = head;
 
-      return newHead;
+         while (current is not null)
+         {
+            ListNode next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+         }
+
+         return previous;
+      }
+
+      // recursive
+      // TC : O(n)
+      // SC : O(n), 
+      public ListNode ReverseList(ListNode head)
+      {
+         if (head is null)
+            return head;
+
+         ListNode newHead = head;
+         if (head.next is not null)
+         {
+            newHead = ReverseList(head.next);
+            head.next.next = head;
+         }
+         head.next = null;
+
+         return newHead;
+      }
    }
 }
