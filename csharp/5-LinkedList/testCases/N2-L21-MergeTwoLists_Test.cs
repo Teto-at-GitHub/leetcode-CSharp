@@ -26,26 +26,22 @@ namespace testCases
       [Test]
       public void Test_Example_2()
       {
-         ListNode input1 = new();
-         ListNode input2 = new();
-
          Solution solution = new();
-         ListNode testResult = solution.MergeTwoLists(input1,input2);
+         ListNode testResult = solution.MergeTwoLists(null,null);
 
-         testResult.val.Should().Be(null);
+         testResult.Should().Be(null);
       }
 
       [Test]
       public void Test_Example_3()
       {
-         ListNode input1 = new();
          ListNode input2 = new(0);
 
          Solution solution = new();
-         ListNode testResult = solution.MergeTwoLists(input1, input2);
+         ListNode testResult = solution.MergeTwoLists(null, input2);
 
          testResult.val.Should().Be(null);
-         testResult.next.val.Should().Be(0);
+
       }
    }
 }
