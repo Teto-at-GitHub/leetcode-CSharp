@@ -14,10 +14,29 @@ namespace LinkedList.Main.LinkedListCycle
       }
    }
 
+   // Hashset sol takes
+   // time : O(n)
+   // space : O(n)
+
+
+   // Floyd's tortoise and hare
+   // if there is a cycle, the slow and the fast pointer they meet again
+   // time : O(n)
    public class Solution
    {
       public bool HasCycle(ListNode head)
       {
+         ListNode slow = head;
+         ListNode fast = head;
+
+         while (fast is not null && fast.next is not null)
+         {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast)
+               return true;
+         }
+
          return false;
       }
    }

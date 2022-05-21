@@ -21,5 +21,41 @@ namespace testCases
 
          testResult.Should().Be(true);
       }
+
+      [Test]
+      public void Test_Example_2()
+      {
+         ListNode headNode = new(1);
+         headNode.next = new(2);
+         headNode.next.next = headNode;
+
+         Solution solution = new();
+         bool testResult = solution.HasCycle(headNode);
+
+         testResult.Should().Be(true);
+      }
+
+      [Test]
+      public void Test_Example_3()
+      {
+         ListNode headNode = new(1);
+
+         Solution solution = new();
+         bool testResult = solution.HasCycle(headNode);
+
+         testResult.Should().Be(false);
+      }
+
+      [Test]
+      public void Test_Example_FailedSubmission()
+      {
+         ListNode headNode = new(1);
+         headNode.next = new(2);
+
+         Solution solution = new();
+         bool testResult = solution.HasCycle(headNode);
+
+         testResult.Should().Be(false);
+      }
    }
 }
