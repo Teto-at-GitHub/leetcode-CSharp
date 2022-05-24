@@ -15,7 +15,7 @@ namespace OneDimDynamicProgramming.Main.ClimbingStairs
          {
             int temp = pt1;
             pt1 = pt1 + pt2;
-            pt2 = pt1;
+            pt2 = temp;
          }
 
          return pt1;
