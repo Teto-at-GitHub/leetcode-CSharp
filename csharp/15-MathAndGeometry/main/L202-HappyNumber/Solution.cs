@@ -1,5 +1,5 @@
 // based on https://www.youtube.com/watch?v=ljz85bxOYJ0
-// time complexity : 
+// time complexity : Hashsets have lookup time O(1) (https://stackoverflow.com/questions/9812020/what-is-the-lookup-time-complexity-of-hashsettiequalitycomparert), but you are still looping over n, so I'd say O(n)
 // space complexity : O(n) <== using Hashset
 public class Solution
 {
