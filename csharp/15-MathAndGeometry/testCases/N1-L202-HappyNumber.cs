@@ -1,9 +1,10 @@
 using FluentAssertions;
+using MathAndGeometry.Main.HappyNumber;
 using NUnit.Framework;
 
 namespace testCases;
 
-public class HappyNumber
+public class HappyNumber_Test
 {
 
    [Test]
