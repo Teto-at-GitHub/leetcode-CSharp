@@ -1,6 +1,8 @@
 namespace MathAndGeometry.Main.PlusOne;
 public class Solution
 {
+   // tc : O(n)
+   // sc : O(1)
    public int[] PlusOne(int[] digits)
    {
       int last_index = digits.Length - 1;
@@ -12,7 +14,7 @@ public class Solution
          // set digit to zero
          digits[index] = 0;
          // move pointer to next digit
-         index--;
+         index--; 
          if (index == -1)
          {
             int[] longerArray = new int[digits.Length + 1];
