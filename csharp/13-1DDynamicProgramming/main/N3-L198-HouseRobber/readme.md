@@ -25,3 +25,12 @@ Total amount you can rob = 2 + 9 + 1 = 12.
 
    1 <= nums.length <= 100
    0 <= nums[i] <= 400
+
+## My notes
+
+The recursion formula is 
+
+$$
+s_i = \max(s_{i-1},n_i+s_{i-2})
+$$
+
