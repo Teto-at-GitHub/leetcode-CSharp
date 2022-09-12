@@ -4,7 +4,7 @@ This is my personal fork of https://github.com/neetcode-gh/leetcode : I am mostl
 
 ### Naming convention
 
-For each exercise in https://neetcode.io/ we add :
+For each exercise in <https://neetcode.io/> we add :
 - a folder in `csharp/<exercise_group>/main`
 - a .cs file in `csharp/<exercise_group>/testCases`
 
