@@ -1,6 +1,6 @@
-using TwoPointers.Main.ValidPalindrome;
 using FluentAssertions;
 using NUnit.Framework;
+using TwoPointers.Main.ValidPalindrome;
 
 namespace testCases
 {
