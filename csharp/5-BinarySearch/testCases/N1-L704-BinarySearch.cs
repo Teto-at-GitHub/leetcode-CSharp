@@ -1,6 +1,6 @@
 using NUnit.Framework;
-using BinarySearch.Main.BinarySearch;
 using FluentAssertions;
+using BinarySearch.Main.BinarySearch;
 
 namespace testCases;
 
