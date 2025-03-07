@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>_7_TreeTests</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
 
@@ -23,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\6_LinkedList\6_LinkedList.csproj" />
+      <ProjectReference Include="..\7_Tree\7_Tree.csproj" />
     </ItemGroup>
 
 </Project>

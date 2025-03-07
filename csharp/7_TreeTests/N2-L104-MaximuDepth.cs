@@ -1,7 +1,6 @@
-using NUnit.Framework;
-using FluentAssertions;
 using BinaryTree.Main;
 using BinaryTree.Main.MaximumDepthBinaryTree;
+using FluentAssertions;
 
 namespace testcases;
 
