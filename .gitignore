@@ -137,3 +137,28 @@ _NCrunch*
 /csharp/.vs/
 /.vs/slnx.sqlite
 /.vs/VSWorkspaceState.json
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/modules.xml
+/.idea.main.iml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+.idea/.idea.leetcode-CSharp.dir/.idea/vcs.xml
+.idea/.idea.leetcode-CSharp.dir/.idea/indexLayout.xml
+.idea/.idea.leetcode-CSharp.dir/.idea/projectSettingsUpdater.xml
+.idea/.idea.leetcode-CSharp.dir/.idea/workspace.xml
+
+csharp/.idea/.idea.main/.idea/projectSettingsUpdater.xml
+csharp/.idea/.idea.main/.idea/workspace.xml
+csharp/.idea/.idea.main/.idea/.name
+csharp/.idea/.idea.main/.idea/indexLayout.xml
+csharp/.idea/.idea.main/.idea/vcs.xml
