@@ -1,6 +1,5 @@
 using FluentAssertions;
 using LinkedList.Main.MergeTwoLists;
-using NUnit.Framework;
 
 namespace testCases
 {
