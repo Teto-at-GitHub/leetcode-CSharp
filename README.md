@@ -1,6 +1,11 @@
 # Leetcode solutions for [NeetCode](https://www.youtube.com/c/neetcode) in C#
 
-This is my personal fork of https://github.com/neetcode-gh/leetcode : I am mostly adding C# solutions.
+This is my personal fork of https://github.com/neetcode-gh/leetcode.
+I am adding C# solutions to the [blind 75](https://neetcode.io/practice?tab=blind75) collection of problems.
+
+## Update
+
+In the meantime, C# solutions were added to the main repo, but I prefer working with my sln/proj setup as it allows for quick testing in the IDE.
 
 ### Naming convention
 
