@@ -28,7 +28,7 @@ namespace testCases
 
          // When
          Solution solution = new Solution();
-         bool testResult = solution.IsPalindrome(input);
+         bool testResult = solution.IsPalindromeInsane(input);
       
          // Then
          testResult.Should().Be(false);
