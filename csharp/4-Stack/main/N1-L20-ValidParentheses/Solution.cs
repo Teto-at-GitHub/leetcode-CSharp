@@ -31,7 +31,7 @@ namespace Stack.Main.ValidParentheses
                stack.Push(c);
          }
 
-         return stack.Count == 0 ? true : false; 
+         return stack.Count == 0; 
       }
    }
 

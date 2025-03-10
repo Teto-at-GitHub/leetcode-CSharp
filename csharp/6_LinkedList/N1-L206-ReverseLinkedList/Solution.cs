@@ -36,7 +36,7 @@ namespace LinkedList.Main.ReverseList
       // recursive
       // TC : O(n)
       // SC : O(n), 
-      public ListNode ReverseList(ListNode head)
+      public ListNode ReverseListRecursively(ListNode head)
       {
          if (head is null)
             return head;
@@ -44,7 +44,7 @@ namespace LinkedList.Main.ReverseList
          ListNode newHead = head;
          if (head.next is not null)
          {
-            newHead = ReverseList(head.next);
+            newHead = ReverseListRecursively(head.next);
             head.next.next = head;
          }
          head.next = null;
