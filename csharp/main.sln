@@ -49,8 +49,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_MathAndGeometry", "17-Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_MathAndGeometry_Tests", "17-MathAndGeometry\testCases\17_MathAndGeometry_Tests.csproj", "{5DB20F5D-9C42-4ED8-8549-003756A1A5BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupTupTuples", "TupTupTuples\TupTupTuples.csproj", "{A95EF41E-C3D0-4770-9AF4-98F6E1703F3C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,10 +151,6 @@ Global
 		{5DB20F5D-9C42-4ED8-8549-003756A1A5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DB20F5D-9C42-4ED8-8549-003756A1A5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DB20F5D-9C42-4ED8-8549-003756A1A5BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A95EF41E-C3D0-4770-9AF4-98F6E1703F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A95EF41E-C3D0-4770-9AF4-98F6E1703F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A95EF41E-C3D0-4770-9AF4-98F6E1703F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A95EF41E-C3D0-4770-9AF4-98F6E1703F3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
