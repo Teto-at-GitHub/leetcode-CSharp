@@ -1,3 +1,5 @@
+using System;
+using System.ComponentModel.DataAnnotations;
 using FluentAssertions;
 using MathAndGeometry.Main.HappyNumber;
 using NUnit.Framework;
@@ -27,5 +29,11 @@ public class HappyNumber_Test
       bool testResult = solution.IsHappy(inputTest1);
 
       testResult.Should().Be(false);
+   }
+
+   
+   public class Input
+   {
+      public (double,int)[] Data { get; set; } 
    }
 }
