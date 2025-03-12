@@ -30,10 +30,4 @@ public class HappyNumber_Test
 
       testResult.Should().Be(false);
    }
-
-   
-   public class Input
-   {
-      public (double,int)[] Data { get; set; } 
-   }
 }
