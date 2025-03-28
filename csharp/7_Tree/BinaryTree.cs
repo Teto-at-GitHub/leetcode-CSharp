@@ -13,6 +13,7 @@ namespace BinaryTree.Main
          this.left = left;
          this.right = right;
       }
-   }
+   } 
+
 }
 
