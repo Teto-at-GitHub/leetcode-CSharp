@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_MathAndGeometry", "17-Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_MathAndGeometry_Tests", "17-MathAndGeometry\testCases\17_MathAndGeometry_Tests.csproj", "{5DB20F5D-9C42-4ED8-8549-003756A1A5BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_BitManipulation", "18_BitManipulation\18_BitManipulation.csproj", "{07B9E897-D8FE-4D78-AF5E-DC2792C9525D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_BitManipulation_Tests", "18_BitManipulation_Tests\18_BitManipulation_Tests.csproj", "{E65DC80C-5671-46BA-95A6-77B8FB7456AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +155,14 @@ Global
 		{5DB20F5D-9C42-4ED8-8549-003756A1A5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DB20F5D-9C42-4ED8-8549-003756A1A5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DB20F5D-9C42-4ED8-8549-003756A1A5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B9E897-D8FE-4D78-AF5E-DC2792C9525D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B9E897-D8FE-4D78-AF5E-DC2792C9525D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B9E897-D8FE-4D78-AF5E-DC2792C9525D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B9E897-D8FE-4D78-AF5E-DC2792C9525D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E65DC80C-5671-46BA-95A6-77B8FB7456AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65DC80C-5671-46BA-95A6-77B8FB7456AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E65DC80C-5671-46BA-95A6-77B8FB7456AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65DC80C-5671-46BA-95A6-77B8FB7456AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
