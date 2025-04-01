@@ -10,11 +10,17 @@ public class L191_NumberOfOneBits_Tests
     [Test]
     public void Example1_Test()
     {
-        uint input = 10111;
-
+        uint input = 0b10111;
+        var x = input << 1;
+        byte a = 3;
+        byte b = 0b_0011;
+        bool c = a == b;
+        
+        
         var solution = new Solution();
-        var result = solution.HammingWeight(input);
+        var result = solution.HammingWeightByMod(input);
 
         result.Should().Be(4);
+
     }
 }
