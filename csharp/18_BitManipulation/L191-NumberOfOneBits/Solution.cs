@@ -1,6 +1,8 @@
 namespace _18_BitManipulation.L191_NumberOfOneBits;
 
 public class Solution {
+    
+    // time complexity: O(32) = O(1) : constant
     public int HammingWeightByMod(uint n)
     {
         var numberOfOnes = 0;
