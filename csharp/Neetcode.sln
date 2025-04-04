@@ -55,6 +55,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_BitManipulation_Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Intervals_Tests", "16_Intervals_Tests\16_Intervals_Tests.csproj", "{58105687-8782-463B-BD1C-94E4AAC78261}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_BackTracking", "11_BackTracking\11_BackTracking.csproj", "{F2855C68-0733-4263-B924-747B776F6136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_11_BackTracking_Tests", "_11_BackTracking_Tests\_11_BackTracking_Tests.csproj", "{135B7EE6-04EA-4239-8905-3D1B498BB180}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +173,14 @@ Global
 		{58105687-8782-463B-BD1C-94E4AAC78261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58105687-8782-463B-BD1C-94E4AAC78261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58105687-8782-463B-BD1C-94E4AAC78261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2855C68-0733-4263-B924-747B776F6136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2855C68-0733-4263-B924-747B776F6136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2855C68-0733-4263-B924-747B776F6136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2855C68-0733-4263-B924-747B776F6136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135B7EE6-04EA-4239-8905-3D1B498BB180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135B7EE6-04EA-4239-8905-3D1B498BB180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135B7EE6-04EA-4239-8905-3D1B498BB180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135B7EE6-04EA-4239-8905-3D1B498BB180}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
