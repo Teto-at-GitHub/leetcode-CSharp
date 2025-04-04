@@ -21,4 +21,8 @@ Output: true
 
 Explanation: 
 
-Two times will not conflict 
+Two times will not conflict
+
+## Constraints
+- 0 <= intervals.length <= 500
+- 0 <= intervals[i].start < intervals[i].end <= 1,000,000

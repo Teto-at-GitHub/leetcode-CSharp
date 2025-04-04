@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-
-namespace lintcode
+namespace _16_Intervals.L252_MeetingRoom
 {
 
    //   Definition of Interval:
@@ -16,7 +12,7 @@ namespace lintcode
       }
    }
 
-   class Solution
+   public class Solution
    {
       /**
        * @param intervals: an array of meeting time intervals
@@ -25,7 +21,7 @@ namespace lintcode
       public bool CanAttendMeetings(List<Interval> intervals)
       {
          // Write your code here
-         intervals.Sort(SortByStartTimeHeleper.CompareStartTime);
+         intervals.Sort(SortByStartTimeHelper.CompareStartTime);
 
          for (int i = 1; i < intervals.Count; i++)
          {
@@ -35,18 +31,15 @@ namespace lintcode
             if (i1.end > i2.start)
                return false;
          }
-         return false;
+         return true;
       }
 
    }
 
-   public class SortByStartTimeHeleper
+   public class SortByStartTimeHelper
    {
-      public static int CompareStartTime(object? x, object? y)
+      public static int CompareStartTime(Interval a, Interval b)
       {
-         Interval a = (Interval)x;
-         Interval b = (Interval)y;
-
          if (a.start > b.start)
             return 1;
          if (a.start < b.start)
@@ -57,6 +50,39 @@ namespace lintcode
 
    }
 
-    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 
 }

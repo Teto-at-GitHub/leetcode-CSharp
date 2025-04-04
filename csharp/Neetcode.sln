@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_BitManipulation", "18_Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_BitManipulation_Tests", "18_BitManipulation_Tests\18_BitManipulation_Tests.csproj", "{E65DC80C-5671-46BA-95A6-77B8FB7456AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Intervals_Tests", "16_Intervals_Tests\16_Intervals_Tests.csproj", "{58105687-8782-463B-BD1C-94E4AAC78261}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +165,10 @@ Global
 		{E65DC80C-5671-46BA-95A6-77B8FB7456AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E65DC80C-5671-46BA-95A6-77B8FB7456AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E65DC80C-5671-46BA-95A6-77B8FB7456AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58105687-8782-463B-BD1C-94E4AAC78261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58105687-8782-463B-BD1C-94E4AAC78261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58105687-8782-463B-BD1C-94E4AAC78261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58105687-8782-463B-BD1C-94E4AAC78261}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
