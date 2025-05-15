@@ -6,19 +6,37 @@ namespace testCases;
 
 public class NumberOfIsland_Test
 {
-   [Test]
-   public void Example_Test_1()
-   {
-      char[][] inputGrid = new char[][] {
-      new char[] {'1', '1', '1', '1', '0'},
-      new char[] {'1', '1', '0', '0', '0'},
-      new char[] {'0', '0', '1', '0', '0'},
-      new char[] {'0', '0', '0', '1', '1'}
-      };
+    [Test]
+    public void ExampleTest1()
+    {
+        char[][] inputGrid = new[]
+        {
+            new[] { '1', '1', '1', '1', '0' },
+            new[] { '1', '1', '0', '0', '0' },
+            new[] { '0', '0', '1', '0', '0' },
+            new[] { '0', '0', '0', '1', '1' }
+        };
 
-      Solution solution = new();
-      int testOutput = solution.NumIslands(inputGrid);
+        Solution solution = new();
+        int testOutput = solution.NumIslands(inputGrid);
 
-      testOutput.Should().Be(3);
-   }
+        testOutput.Should().Be(3);
+    }
+
+    [Test]
+    public void ExampleTest2()
+    {
+        char[][] inputGrid = new[]
+        {
+            new[] { '1', '1', '0', '0', '1' },
+            new[] { '1', '1', '0', '0', '1' },
+            new[] { '0', '0', '1', '0', '0' },
+            new[] { '0', '0', '0', '1', '1' }
+        };
+
+        Solution solution = new();
+        int testOutput = solution.NumIslands(inputGrid);
+
+        testOutput.Should().Be(4);
+    }
 }
